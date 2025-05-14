@@ -4,18 +4,78 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Projetos - João de Cristo</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Aplica um fundo azul com estrelas */
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(white 1px, transparent 1px), #001f4d;
+      background-size: 30px 30px;
+      background-position: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: white;
+
+      /* Centraliza o conteúdo */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Container responsivo */
+    .container {
+      padding: 20px;
+    }
+
+    /* Título principal */
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    /* Parágrafos */
+    p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    /* Menu de navegação */
+    .menu {
+      margin-top: 3rem;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+      padding: 10px 15px;
+      background-color: #FF6347;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: #FF4500;
+    }
+
+    /* Responsividade básica */
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>Meus Projetos</h1>
-    
     <p>Atualmente, não comecei nenhum projeto, pois estou me dedicando a adquirir mais conhecimentos e habilidades. Tenho o objetivo de desenvolver meu primeiro projeto em breve, após me aprofundar mais nos estudos e na prática de tecnologias.</p>
 
     <p>Estou trabalhando para adquirir mais experiência.</p>
 
-    <div class="menu" style="margin-top: 3rem;">
-      <a href="curriculo.htm" style="background-color: #FF6347;">Voltar</a>
+    <div class="menu">
+      <a href="curriculo.htm">Voltar</a>
     </div>
   </div>
 </body>
